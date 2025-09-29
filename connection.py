@@ -2,7 +2,7 @@ import pymysql
 
 try:
     db_conn = pymysql.connect(
-        host='172.203.219.73',
+        host='4.236.160.99',
         user='bits',
         password='Bits@1234!',
         database='bits_stdu'

@@ -15,7 +15,7 @@ def read():
     records = db_cursor.fetchall()
 
     html_body = "<title> Student Record </title>"
-    html_body += "<h2>Student Dada</h2><table border='1'>"
+    html_body += "<h2>Student Data</h2><table border='1'>"
     html_body += "<tr><th>ID</th><th>Name</th></tr>"
     for record in records:
         html_body += f"<tr><td>{record[0]}</td><td>{record[1]}</td></tr>"

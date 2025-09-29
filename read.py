@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route('/', methods=['GET'])
 def home():
-    return "INFO: This <change> is use for reading record from <change>"
+    return "INFO: This microservices is use for reading record from Database"
 
 @app.route('/read', methods=['GET'])
 def read():
